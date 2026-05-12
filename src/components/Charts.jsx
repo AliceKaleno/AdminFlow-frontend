@@ -13,6 +13,12 @@ import {
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
 
+import { io } from "socket.io-client";
+
+const socket = io(
+  "https://adminflow-backend-3etp.onrender.com"
+);
+
 export default function Charts() {
 
   const [data, setData] = useState([]);
