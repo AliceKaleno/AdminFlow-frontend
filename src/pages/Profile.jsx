@@ -13,9 +13,6 @@ import {
 
 export default function Profile() {
 
-  // =========================
-  // USUÁRIO STORAGE SEGURO
-  // =========================
   const usuarioStorage = JSON.parse(localStorage.getItem("usuario") || "{}")
 
   const [usuario, setUsuario] =
@@ -46,9 +43,6 @@ export default function Profile() {
     "Alterou configurações",
   ];
 
-  // =========================
-  // ALTERAR SENHA
-  // =========================
   async function alterarSenha() {
 
     setMensagem("");
@@ -115,9 +109,7 @@ export default function Profile() {
     }
   }
 
-  // =========================
-  // SALVAR PERFIL
-  // =========================
+
   function salvarPerfil() {
 
     const usuarioAtualizado = {
