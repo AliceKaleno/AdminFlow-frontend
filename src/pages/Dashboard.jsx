@@ -15,7 +15,6 @@ export default function Dashboard() {
   const [perfilAberto, setPerfilAberto] =
     useState(false);
 
-  // ✅ LOCALSTORAGE SEGURO
   const usuario = JSON.parse(
     localStorage.getItem("usuario") || "{}"
   );
