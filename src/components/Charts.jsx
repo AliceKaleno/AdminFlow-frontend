@@ -58,7 +58,7 @@ export default function Charts() {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-6">
 
-      {/* 📈 GRÁFICO PRINCIPAL */}
+      {/* GRÁFICO PRINCIPAL */}
       <div className="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
 
         <div className="flex items-center justify-between mb-6">
@@ -104,7 +104,7 @@ export default function Charts() {
 
       </div>
 
-      {/* 💎 GRÁFICO SECUNDÁRIO */}
+      {/* GRÁFICO SECUNDÁRIO */}
       <div className="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
 
         <div className="flex items-center justify-between mb-6">
