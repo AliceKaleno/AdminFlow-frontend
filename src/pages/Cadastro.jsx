@@ -31,7 +31,7 @@ export default function Cadastro() {
         navigate("/"); // volta pro login
       }
     } catch (err) {
-      console.log(err.response); // 👈 MUITO IMPORTANTE
+      console.log(err.response);
       console.error(err);
       setErro("Erro ao criar conta");
     }
