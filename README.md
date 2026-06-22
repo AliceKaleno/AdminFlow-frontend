@@ -108,7 +108,7 @@ Banco de Dados (SQLite)
 
 ### Gestão de Usuários
 
-<img src="./src/users.jpg" />
+<img src="./src/usersadmin.jpg" />
 
 ---
 
