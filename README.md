@@ -104,11 +104,11 @@ Banco de Dados (SQLite)
 
 ### Dashboard
 
-<img src="./preview/dashboard.jpeg" />
+<img src="./src/dashboard.jpg" />
 
 ### Gestão de Usuários
 
-<img src="./src/users.jpeg" />
+<img src="./src/users.jpg" />
 
 ---
 
